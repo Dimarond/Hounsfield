@@ -10,8 +10,8 @@ HU_ranges = {
     60: 'Gray matter',
     90: 'Acute blood (possible clotted)',
     100: 'Iodinated contrast (low concentration)',
-    500: 'Iodinated contrast (high concentration)',
     300: 'Trabecular bone',
+    600: 'Iodinated contrast (high concentration)',
     1000: 'Cortical bone'
 }
 
@@ -32,3 +32,4 @@ if tissue_type:
 else:
     print("The input HU value does not correspond to any known tissue type.")
 print("Please note that the results should be interpreted in the context of the clinical case and individual variations may occur.")
+
