@@ -1,4 +1,4 @@
-# Define the HU ranges and corresponding tissue types
+# Define the HU values and corresponding tissue types
 HU_ranges = {
     -1000: 'Air',
     -100: 'Fat',
@@ -28,7 +28,7 @@ for range_start, tissue in HU_ranges.items():
 
 # Print the result and a disclaimer
 if tissue_type:
-    print(f"The input HU value corresponds to {tissue_type}.")
+    print(f"The HU value corresponds to {tissue_type}.")
 else:
     print("The input HU value does not correspond to any known tissue type.")
 print("Please note that the results should be interpreted in the context of the clinical case and individual variations may occur.")
