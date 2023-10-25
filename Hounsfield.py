@@ -10,9 +10,7 @@ HU_ranges = {
     60: 'Gray matter',
     90: 'Blood (coagulated)',
     100: 'Iodinated contrast (low concentration)',
-    300: 'Trabecular bone',
-    600: 'Iodinated contrast (high concentration)',
-    1000: 'Cortical bone'
+    300: 'Cortical bone, contrast substance, physiological/pathological calcification, or solid dense metal/foreign objects'
 }
 
 # Ask the user to input a numerical HU value
